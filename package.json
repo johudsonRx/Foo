@@ -6,7 +6,7 @@
   "author": "Start Bootstrap",
   "main": "server.js",
   "scripts": {
-     "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "license": {
@@ -30,5 +30,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/BlackrockDigital/startbootstrap-creative.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "logger": "0.0.1"
   }
 }
